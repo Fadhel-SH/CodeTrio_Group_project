@@ -3,7 +3,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
-const authRoutes = require('./routes/authRoutes');
 const connectDB = require('./config/database');
 
 dotenv.config();
@@ -13,7 +12,7 @@ const PORT = process.env.PORT || 3000;
 
 // Middleware
 app.use(express.json());
-app.use('/api/auth', authRoutes);
+
 
 // Connect to MongoDB
 connectDB();
