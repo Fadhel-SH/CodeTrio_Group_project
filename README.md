@@ -72,10 +72,27 @@ You can test the API by sending requests to the available routes using a tool li
      └── README.md
 ```
 
+## Technologies Used
+- Node.js
+- Express
+- MongoDB
+- React
+- AJAX
+
+## Next Steps
+- Implement JWT-based authentication in the back-end.
+- Set up React components and routes in the front-end.
+- Develop CRUD functionality for additional data entities.
+- Deploy the application online.
+
 ## License
-```
 This project is licensed under the MIT License.
-```
+
+## Contributors
+- Your Name
+- Team Member 1
+- Team Member 2
+
 
 
 
